@@ -13,6 +13,7 @@
 		636D5200252B86CC00BB80D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 636D51FF252B86CC00BB80D4 /* Preview Assets.xcassets */; };
 		636D520B252B86CC00BB80D4 /* Fibonacci_TDD_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636D520A252B86CC00BB80D4 /* Fibonacci_TDD_ExampleTests.swift */; };
 		636D5216252B86CC00BB80D4 /* Fibonacci_TDD_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636D5215252B86CC00BB80D4 /* Fibonacci_TDD_ExampleUITests.swift */; };
+		636D5227252B885200BB80D4 /* FibonacciSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636D5226252B885200BB80D4 /* FibonacciSequence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		636D5211252B86CC00BB80D4 /* Fibonacci-TDD-ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fibonacci-TDD-ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		636D5215252B86CC00BB80D4 /* Fibonacci_TDD_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci_TDD_ExampleUITests.swift; sourceTree = "<group>"; };
 		636D5217252B86CC00BB80D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		636D5226252B885200BB80D4 /* FibonacciSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciSequence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				636D51F8252B86C900BB80D4 /* Fibonacci_TDD_ExampleApp.swift */,
 				636D51FA252B86C900BB80D4 /* ContentView.swift */,
+				636D5226252B885200BB80D4 /* FibonacciSequence.swift */,
 				636D51FC252B86CC00BB80D4 /* Assets.xcassets */,
 				636D5201252B86CC00BB80D4 /* Info.plist */,
 				636D51FE252B86CC00BB80D4 /* Preview Content */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				636D5227252B885200BB80D4 /* FibonacciSequence.swift in Sources */,
 				636D51FB252B86C900BB80D4 /* ContentView.swift in Sources */,
 				636D51F9252B86C900BB80D4 /* Fibonacci_TDD_ExampleApp.swift in Sources */,
 			);

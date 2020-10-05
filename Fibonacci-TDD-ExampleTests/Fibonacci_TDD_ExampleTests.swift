@@ -23,6 +23,14 @@ class Fibonacci_TDD_ExampleTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
+    func testFibonacciSequence() throws {
+        var f = FibonacciSequence.fib(0)
+        XCTAssertEqual(0, f, "f should equal 0")
+        
+        f = FibonacciSequence.fib(1)
+        XCTAssertEqual(1, f, "f should equal 1")
+    }
+    
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
         self.measure {
