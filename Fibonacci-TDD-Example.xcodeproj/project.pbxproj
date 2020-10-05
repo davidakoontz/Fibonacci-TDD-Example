@@ -47,6 +47,7 @@
 		636D5215252B86CC00BB80D4 /* Fibonacci_TDD_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci_TDD_ExampleUITests.swift; sourceTree = "<group>"; };
 		636D5217252B86CC00BB80D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		636D5226252B885200BB80D4 /* FibonacciSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciSequence.swift; sourceTree = "<group>"; };
+		636D5233252B8DDC00BB80D4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +78,7 @@
 		636D51EC252B86C900BB80D4 = {
 			isa = PBXGroup;
 			children = (
+				636D5233252B8DDC00BB80D4 /* README.md */,
 				636D51F7252B86C900BB80D4 /* Fibonacci-TDD-Example */,
 				636D5209252B86CC00BB80D4 /* Fibonacci-TDD-ExampleTests */,
 				636D5214252B86CC00BB80D4 /* Fibonacci-TDD-ExampleUITests */,
